@@ -1,0 +1,30 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    width: 80%;
+    height: 100px;
+    overflow: hidden;
+    border: 3px solid #333;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.letreiro {
+    position: relative;
+    white-space: nowrap;
+    font-size: 2em;
+    font-weight: bold;
+    color: #1a73e8;
+}
